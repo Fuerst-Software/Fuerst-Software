@@ -236,4 +236,20 @@ body{margin:0;font-family:var(--font);line-height:1.45;color:#1f2933;background:
   box-shadow: 0 10px 24px rgba(191,169,76,0.6);
 }
 
+/* Standard: kein Goldrahmen */
+#preise .price-card { border: 1px solid #eee; }
 
+/* Highlight nur dezent ohne Gold – bis Hover */
+#preise .price-card.highlight {
+  border: 1px solid #eee;          /* statt Gold */
+  box-shadow: 0 8px 24px rgba(0,0,0,0.10); /* leichte Betonung */
+}
+
+/* Goldrahmen NUR bei Hover (gilt für alle drei Karten) */
+#preise .price-card:hover,
+#preise .price-card.highlight:hover,
+#preise .price-card.premium:hover {
+  border: 2px solid #bfa94c;
+  box-shadow: 0 12px 30px rgba(191,169,76,0.25);
+  transform: translateY(-8px);
+}
