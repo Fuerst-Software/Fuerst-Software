@@ -96,4 +96,26 @@ body{margin:0;font-family:var(--font);line-height:1.45;color:#1f2933;background:
 @media (max-width:991.98px){.ff-headline{font-size:2rem}.hero-glow{width:360px;height:360px;left:52%}.process-line{left:1rem;right:1rem}.hero-section{padding-top:6rem}}
 @media (max-width:575.98px){.ff-headline{font-size:1.6rem}.hero-glow{display:none}.hero-section{padding-top:5.2rem}}
 
+/* ===== CTA Button Preise ===== */
+.btn-gold {
+  background: #bfa94c;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 6px 18px rgba(191,169,76,0.4);
+}
+
+.btn-gold:hover {
+  background: #a8913d;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(191,169,76,0.6);
+}
+
+
+
 
