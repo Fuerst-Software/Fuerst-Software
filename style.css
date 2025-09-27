@@ -90,12 +90,6 @@ body{margin:0;font-family:var(--font);line-height:1.45;color:#1f2933;background:
 .bullets--dots li{position:relative;margin:.4rem 0}
 .bullets--dots li::before{content:"•";position:absolute;left:-1.1rem;top:.05rem;font-size:1.05rem;line-height:1;color:var(--accent);font-weight:900}
 
-
-
-/* Responsive */
-@media (max-width:991.98px){.ff-headline{font-size:2rem}.hero-glow{width:360px;height:360px;left:52%}.process-line{left:1rem;right:1rem}.hero-section{padding-top:6rem}}
-@media (max-width:575.98px){.ff-headline{font-size:1.6rem}.hero-glow{display:none}.hero-section{padding-top:5.2rem}}
-
 /* ===== Preise Section ===== */
 #preise {
   padding: 4rem 0;
@@ -185,6 +179,13 @@ body{margin:0;font-family:var(--font);line-height:1.45;color:#1f2933;background:
   transform: translateY(-3px);
   box-shadow: 0 10px 24px rgba(191,169,76,0.6);
 }
+
+
+/* Responsive */
+@media (max-width:991.98px){.ff-headline{font-size:2rem}.hero-glow{width:360px;height:360px;left:52%}.process-line{left:1rem;right:1rem}.hero-section{padding-top:6rem}}
+@media (max-width:575.98px){.ff-headline{font-size:1.6rem}.hero-glow{display:none}.hero-section{padding-top:5.2rem}}
+
+
 
 
 
