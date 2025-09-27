@@ -253,3 +253,63 @@ body{margin:0;font-family:var(--font);line-height:1.45;color:#1f2933;background:
   box-shadow: 0 12px 30px rgba(191,169,76,0.25);
   transform: translateY(-8px);
 }
+/* Hosting Dropdown im Preisbereich */
+.price-dropdown {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.dropdown-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.price-select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #333;
+  background: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.price-select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 8px rgba(191,169,76,0.3);
+  outline: none;
+}
+/* Dropdown für Hosting */
+.price-dropdown {
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.dropdown-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 0.3rem;
+}
+
+.price-select {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #333;
+  background: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.price-select:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 8px rgba(191,169,76,0.3);
+  outline: none;
+}
+
