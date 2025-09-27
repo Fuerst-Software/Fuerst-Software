@@ -183,3 +183,57 @@ body{margin:0;font-family:var(--font);line-height:1.45;color:#1f2933;background:
   transform: translateY(-3px);
   box-shadow: 0 10px 24px rgba(191,169,76,0.6);
 }
+
+
+
+
+
+
+/* ===== Preise Section (scoped) ===== */
+#preise { padding: 4rem 0; background: #fafafa; }
+
+#preise .price-card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #eee;
+}
+#preise .price-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+#preise .price-title { font-weight: 700; font-size: 1.2rem; margin-bottom: 0.5rem; }
+#preise .price-old { text-decoration: line-through; color: #888; margin: 0.5rem 0; }
+#preise .price-new { font-size: 1.4rem; font-weight: 600; color: #333; margin-bottom: 1rem; }
+#preise .price-new span { color: #bfa94c; font-size: 1.6rem; font-weight: 800; }
+
+#preise .price-features { list-style: none; padding: 0; margin: 1rem 0 0; text-align: left; font-size: 0.95rem; color: #555; }
+#preise .price-features li { padding: 0.3rem 0; border-bottom: 1px solid rgba(0,0,0,0.05); }
+
+#preise .price-card.highlight { border: 2px solid #bfa94c; box-shadow: 0 8px 24px rgba(191,169,76,0.2); }
+#preise .price-card.premium { background: linear-gradient(145deg,#fff,#fdfdfd); border: 2px solid #c0c0c0; box-shadow: 0 10px 28px rgba(0,0,0,0.15); }
+
+/* CTA Button im Preisbereich */
+#preise .btn.btn-gold {
+  background: #bfa94c;
+  color: #fff;
+  font-weight: 600;
+  padding: 0.85rem 2rem;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  box-shadow: 0 6px 18px rgba(191,169,76,0.4);
+}
+#preise .btn.btn-gold:hover {
+  background: #a8913d;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(191,169,76,0.6);
+}
+
+
